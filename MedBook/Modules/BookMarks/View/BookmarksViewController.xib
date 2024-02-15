@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BookmarksViewController" customModule="MedBook" customModuleProvider="target">
+            <connections>
+                <outlet property="tableViewBookmarks" destination="v0G-Yh-tXM" id="vXZ-mt-brF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bookmarks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpQ-DH-6e0">
+                    <rect key="frame" x="16" y="75" width="361" height="33.666666666666657"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="v0G-Yh-tXM">
+                    <rect key="frame" x="0.0" y="108.66666666666669" width="393" height="709.33333333333326"/>
+                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemGray6Color"/>
+            <constraints>
+                <constraint firstItem="SpQ-DH-6e0" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="Dye-pK-IWO"/>
+                <constraint firstItem="SpQ-DH-6e0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="QFG-U2-hM5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SpQ-DH-6e0" secondAttribute="trailing" constant="16" id="Y0B-m9-anK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="v0G-Yh-tXM" secondAttribute="bottom" id="bSM-cx-MbO"/>
+                <constraint firstItem="v0G-Yh-tXM" firstAttribute="top" secondItem="SpQ-DH-6e0" secondAttribute="bottom" id="eG7-b3-buP"/>
+                <constraint firstItem="v0G-Yh-tXM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jtj-Ga-apm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="v0G-Yh-tXM" secondAttribute="trailing" id="tZ7-st-rgZ"/>
+            </constraints>
+            <point key="canvasLocation" x="127.48091603053435" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

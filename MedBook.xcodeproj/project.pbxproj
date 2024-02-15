@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C360FDBF2B7D1F9A009C6D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDBE2B7D1F9A009C6D03 /* AppDelegate.swift */; };
+		C360FDC12B7D1F9A009C6D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDC02B7D1F9A009C6D03 /* SceneDelegate.swift */; };
+		C360FDC62B7D1F9A009C6D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360FDC42B7D1F9A009C6D03 /* Main.storyboard */; };
+		C360FDC92B7D1F9A009C6D03 /* MedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C360FDC72B7D1F9A009C6D03 /* MedBook.xcdatamodeld */; };
+		C360FDCB2B7D1F9B009C6D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C360FDCA2B7D1F9B009C6D03 /* Assets.xcassets */; };
+		C360FDCE2B7D1F9B009C6D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360FDCC2B7D1F9B009C6D03 /* LaunchScreen.storyboard */; };
+		C360FDD92B7D1F9B009C6D03 /* MedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDD82B7D1F9B009C6D03 /* MedBookTests.swift */; };
+		C360FDE32B7D1F9B009C6D03 /* MedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDE22B7D1F9B009C6D03 /* MedBookUITests.swift */; };
+		C360FDE52B7D1F9B009C6D03 /* MedBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDE42B7D1F9B009C6D03 /* MedBookUITestsLaunchTests.swift */; };
+		C360FDFA2B7D22D8009C6D03 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDF82B7D22D8009C6D03 /* KeychainService.swift */; };
+		C360FE002B7D23C4009C6D03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FDFF2B7D23C4009C6D03 /* Constants.swift */; };
+		C360FE082B7D27D5009C6D03 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE042B7D27D5009C6D03 /* BaseViewModel.swift */; };
+		C360FE092B7D27D5009C6D03 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE052B7D27D5009C6D03 /* Bindable.swift */; };
+		C360FE0A2B7D27D5009C6D03 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE072B7D27D5009C6D03 /* BaseViewController.swift */; };
+		C360FE112B7D2A7E009C6D03 /* LoginAndSignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE102B7D2A7E009C6D03 /* LoginAndSignUpModel.swift */; };
+		C360FE172B7D2B1E009C6D03 /* LoginAndSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE162B7D2B1E009C6D03 /* LoginAndSignUpViewModel.swift */; };
+		C360FE192B7D2B30009C6D03 /* LoginAndSignUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE182B7D2B30009C6D03 /* LoginAndSignUpRepository.swift */; };
+		C360FE1C2B7D2D8F009C6D03 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE1B2B7D2D8F009C6D03 /* LandingViewController.swift */; };
+		C360FE1F2B7D2DB0009C6D03 /* LoginAndSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE1D2B7D2DB0009C6D03 /* LoginAndSignUpViewController.swift */; };
+		C360FE202B7D2DB0009C6D03 /* LoginAndSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C360FE1E2B7D2DB0009C6D03 /* LoginAndSignUpViewController.xib */; };
+		C360FE222B7D32FC009C6D03 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE212B7D32FC009C6D03 /* UIButton+Extension.swift */; };
+		C360FE242B7D4832009C6D03 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE232B7D4832009C6D03 /* UIViewController+Extensions.swift */; };
+		C360FE2C2B7D584F009C6D03 /* ServiceUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE262B7D584F009C6D03 /* ServiceUrl.swift */; };
+		C360FE2D2B7D584F009C6D03 /* BaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE272B7D584F009C6D03 /* BaseModels.swift */; };
+		C360FE2E2B7D584F009C6D03 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE282B7D584F009C6D03 /* ServiceHelper.swift */; };
+		C360FE2F2B7D584F009C6D03 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE292B7D584F009C6D03 /* Webservices.swift */; };
+		C360FE302B7D584F009C6D03 /* HTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE2A2B7D584F009C6D03 /* HTTPProtocol.swift */; };
+		C360FE342B7D5BC8009C6D03 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C360FE332B7D5BC8009C6D03 /* Alamofire */; };
+		C360FE362B7D5FEA009C6D03 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360FE352B7D5FEA009C6D03 /* Data+Extension.swift */; };
+		C3D0443D2B7DF8570050BA1C /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D0443C2B7DF8570050BA1C /* UserDefault.swift */; };
+		C3D044442B7E05970050BA1C /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D044432B7E05970050BA1C /* HomeModel.swift */; };
+		C3D044472B7E05AE0050BA1C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D044452B7E05AE0050BA1C /* HomeViewController.swift */; };
+		C3D044482B7E05AE0050BA1C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D044462B7E05AE0050BA1C /* HomeViewController.xib */; };
+		C3D0444A2B7E05CD0050BA1C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D044492B7E05CD0050BA1C /* HomeViewModel.swift */; };
+		C3D0444D2B7E05E40050BA1C /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D0444C2B7E05E40050BA1C /* HomeRepository.swift */; };
+		C3D044512B7E11650050BA1C /* BookResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D0444F2B7E11650050BA1C /* BookResultTableViewCell.swift */; };
+		C3D044522B7E11650050BA1C /* BookResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D044502B7E11650050BA1C /* BookResultTableViewCell.xib */; };
+		C3D044552B7E350F0050BA1C /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = C3D044542B7E350F0050BA1C /* SDWebImage */; };
+		C3D044582B7E88530050BA1C /* BooksCoreDataOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D044572B7E88530050BA1C /* BooksCoreDataOperations.swift */; };
+		C3D0445F2B7E91880050BA1C /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D0445D2B7E91880050BA1C /* BookmarksViewController.swift */; };
+		C3D044602B7E91880050BA1C /* BookmarksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D0445E2B7E91880050BA1C /* BookmarksViewController.xib */; };
+		C3D044622B7E91A00050BA1C /* BookmarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D044612B7E91A00050BA1C /* BookmarksViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C360FDD52B7D1F9B009C6D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C360FDB32B7D1F9A009C6D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C360FDBA2B7D1F9A009C6D03;
+			remoteInfo = MedBook;
+		};
+		C360FDDF2B7D1F9B009C6D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C360FDB32B7D1F9A009C6D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C360FDBA2B7D1F9A009C6D03;
+			remoteInfo = MedBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C360FDBB2B7D1F9A009C6D03 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C360FDBE2B7D1F9A009C6D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C360FDC02B7D1F9A009C6D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C360FDC52B7D1F9A009C6D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C360FDC82B7D1F9A009C6D03 /* MedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedBook.xcdatamodel; sourceTree = "<group>"; };
+		C360FDCA2B7D1F9B009C6D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C360FDCD2B7D1F9B009C6D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C360FDCF2B7D1F9B009C6D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C360FDD42B7D1F9B009C6D03 /* MedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C360FDD82B7D1F9B009C6D03 /* MedBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedBookTests.swift; sourceTree = "<group>"; };
+		C360FDDE2B7D1F9B009C6D03 /* MedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C360FDE22B7D1F9B009C6D03 /* MedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedBookUITests.swift; sourceTree = "<group>"; };
+		C360FDE42B7D1F9B009C6D03 /* MedBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C360FDF82B7D22D8009C6D03 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		C360FDFF2B7D23C4009C6D03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C360FE042B7D27D5009C6D03 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		C360FE052B7D27D5009C6D03 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		C360FE072B7D27D5009C6D03 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C360FE102B7D2A7E009C6D03 /* LoginAndSignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUpModel.swift; sourceTree = "<group>"; };
+		C360FE162B7D2B1E009C6D03 /* LoginAndSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUpViewModel.swift; sourceTree = "<group>"; };
+		C360FE182B7D2B30009C6D03 /* LoginAndSignUpRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUpRepository.swift; sourceTree = "<group>"; };
+		C360FE1B2B7D2D8F009C6D03 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		C360FE1D2B7D2DB0009C6D03 /* LoginAndSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSignUpViewController.swift; sourceTree = "<group>"; };
+		C360FE1E2B7D2DB0009C6D03 /* LoginAndSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginAndSignUpViewController.xib; sourceTree = "<group>"; };
+		C360FE212B7D32FC009C6D03 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		C360FE232B7D4832009C6D03 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		C360FE262B7D584F009C6D03 /* ServiceUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceUrl.swift; sourceTree = "<group>"; };
+		C360FE272B7D584F009C6D03 /* BaseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModels.swift; sourceTree = "<group>"; };
+		C360FE282B7D584F009C6D03 /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		C360FE292B7D584F009C6D03 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		C360FE2A2B7D584F009C6D03 /* HTTPProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPProtocol.swift; sourceTree = "<group>"; };
+		C360FE352B7D5FEA009C6D03 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		C3D0443C2B7DF8570050BA1C /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		C3D044432B7E05970050BA1C /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		C3D044452B7E05AE0050BA1C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C3D044462B7E05AE0050BA1C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C3D044492B7E05CD0050BA1C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C3D0444C2B7E05E40050BA1C /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		C3D0444F2B7E11650050BA1C /* BookResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResultTableViewCell.swift; sourceTree = "<group>"; };
+		C3D044502B7E11650050BA1C /* BookResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookResultTableViewCell.xib; sourceTree = "<group>"; };
+		C3D044572B7E88530050BA1C /* BooksCoreDataOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCoreDataOperations.swift; sourceTree = "<group>"; };
+		C3D0445D2B7E91880050BA1C /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		C3D0445E2B7E91880050BA1C /* BookmarksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarksViewController.xib; sourceTree = "<group>"; };
+		C3D044612B7E91A00050BA1C /* BookmarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C360FDB82B7D1F9A009C6D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D044552B7E350F0050BA1C /* SDWebImage in Frameworks */,
+				C360FE342B7D5BC8009C6D03 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDD12B7D1F9B009C6D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDDB2B7D1F9B009C6D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C360FDB22B7D1F9A009C6D03 = {
+			isa = PBXGroup;
+			children = (
+				C360FDBD2B7D1F9A009C6D03 /* MedBook */,
+				C360FDD72B7D1F9B009C6D03 /* MedBookTests */,
+				C360FDE12B7D1F9B009C6D03 /* MedBookUITests */,
+				C360FDBC2B7D1F9A009C6D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C360FDBC2B7D1F9A009C6D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDBB2B7D1F9A009C6D03 /* MedBook.app */,
+				C360FDD42B7D1F9B009C6D03 /* MedBookTests.xctest */,
+				C360FDDE2B7D1F9B009C6D03 /* MedBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C360FDBD2B7D1F9A009C6D03 /* MedBook */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDF62B7D22D8009C6D03 /* Persistent */,
+				C360FDF52B7D22C0009C6D03 /* Base */,
+				C360FDF42B7D21B8009C6D03 /* Modules */,
+				C360FDF32B7D21A0009C6D03 /* Extensions */,
+				C360FDF22B7D206F009C6D03 /* Resources */,
+				C360FDFD2B7D2393009C6D03 /* CommonClasses */,
+				C360FDF12B7D1FE1009C6D03 /* Application */,
+				C360FDC42B7D1F9A009C6D03 /* Main.storyboard */,
+				C360FDC72B7D1F9A009C6D03 /* MedBook.xcdatamodeld */,
+			);
+			path = MedBook;
+			sourceTree = "<group>";
+		};
+		C360FDD72B7D1F9B009C6D03 /* MedBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDD82B7D1F9B009C6D03 /* MedBookTests.swift */,
+			);
+			path = MedBookTests;
+			sourceTree = "<group>";
+		};
+		C360FDE12B7D1F9B009C6D03 /* MedBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDE22B7D1F9B009C6D03 /* MedBookUITests.swift */,
+				C360FDE42B7D1F9B009C6D03 /* MedBookUITestsLaunchTests.swift */,
+			);
+			path = MedBookUITests;
+			sourceTree = "<group>";
+		};
+		C360FDF12B7D1FE1009C6D03 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDC02B7D1F9A009C6D03 /* SceneDelegate.swift */,
+				C360FDBE2B7D1F9A009C6D03 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C360FDF22B7D206F009C6D03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDCA2B7D1F9B009C6D03 /* Assets.xcassets */,
+				C360FDCF2B7D1F9B009C6D03 /* Info.plist */,
+				C360FDCC2B7D1F9B009C6D03 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C360FDF32B7D21A0009C6D03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE352B7D5FEA009C6D03 /* Data+Extension.swift */,
+				C360FE232B7D4832009C6D03 /* UIViewController+Extensions.swift */,
+				C360FE212B7D32FC009C6D03 /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C360FDF42B7D21B8009C6D03 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044592B7E90CE0050BA1C /* BookMarks */,
+				C3D0443E2B7E04250050BA1C /* Home */,
+				C360FE1A2B7D2D08009C6D03 /* LandingPage */,
+				C360FE0B2B7D2A1E009C6D03 /* LoginAndSignUp */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C360FDF52B7D22C0009C6D03 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE062B7D27D5009C6D03 /* BaseViewController */,
+				C360FE032B7D27D5009C6D03 /* BaseViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C360FDF62B7D22D8009C6D03 /* Persistent */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044562B7E882B0050BA1C /* CoreData */,
+				C3D0443B2B7DF8570050BA1C /* UserDefaults */,
+				C360FDF82B7D22D8009C6D03 /* KeychainService.swift */,
+			);
+			path = Persistent;
+			sourceTree = "<group>";
+		};
+		C360FDFD2B7D2393009C6D03 /* CommonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE252B7D584F009C6D03 /* WebServices */,
+				C360FDFE2B7D23B4009C6D03 /* Constants */,
+			);
+			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		C360FDFE2B7D23B4009C6D03 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C360FDFF2B7D23C4009C6D03 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C360FE032B7D27D5009C6D03 /* BaseViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE042B7D27D5009C6D03 /* BaseViewModel.swift */,
+				C360FE052B7D27D5009C6D03 /* Bindable.swift */,
+			);
+			path = BaseViewModel;
+			sourceTree = "<group>";
+		};
+		C360FE062B7D27D5009C6D03 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE072B7D27D5009C6D03 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C360FE0B2B7D2A1E009C6D03 /* LoginAndSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE0D2B7D2A39009C6D03 /* Model */,
+				C360FE0F2B7D2A47009C6D03 /* View */,
+				C360FE0C2B7D2A32009C6D03 /* ViewModel */,
+				C360FE0E2B7D2A40009C6D03 /* Repository */,
+			);
+			path = LoginAndSignUp;
+			sourceTree = "<group>";
+		};
+		C360FE0C2B7D2A32009C6D03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE162B7D2B1E009C6D03 /* LoginAndSignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C360FE0D2B7D2A39009C6D03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE102B7D2A7E009C6D03 /* LoginAndSignUpModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C360FE0E2B7D2A40009C6D03 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE182B7D2B30009C6D03 /* LoginAndSignUpRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C360FE0F2B7D2A47009C6D03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE1D2B7D2DB0009C6D03 /* LoginAndSignUpViewController.swift */,
+				C360FE1E2B7D2DB0009C6D03 /* LoginAndSignUpViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C360FE1A2B7D2D08009C6D03 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE1B2B7D2D8F009C6D03 /* LandingViewController.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		C360FE252B7D584F009C6D03 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				C360FE262B7D584F009C6D03 /* ServiceUrl.swift */,
+				C360FE272B7D584F009C6D03 /* BaseModels.swift */,
+				C360FE282B7D584F009C6D03 /* ServiceHelper.swift */,
+				C360FE292B7D584F009C6D03 /* Webservices.swift */,
+				C360FE2A2B7D584F009C6D03 /* HTTPProtocol.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		C3D0443B2B7DF8570050BA1C /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0443C2B7DF8570050BA1C /* UserDefault.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		C3D0443E2B7E04250050BA1C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044402B7E055D0050BA1C /* Model */,
+				C3D0443F2B7E05510050BA1C /* View */,
+				C3D044412B7E05620050BA1C /* ViewModel */,
+				C3D044422B7E056A0050BA1C /* Repository */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3D0443F2B7E05510050BA1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0444E2B7E0D000050BA1C /* Cells */,
+				C3D044452B7E05AE0050BA1C /* HomeViewController.swift */,
+				C3D044462B7E05AE0050BA1C /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3D044402B7E055D0050BA1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044432B7E05970050BA1C /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3D044412B7E05620050BA1C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044492B7E05CD0050BA1C /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C3D044422B7E056A0050BA1C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0444C2B7E05E40050BA1C /* HomeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C3D0444E2B7E0D000050BA1C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0444F2B7E11650050BA1C /* BookResultTableViewCell.swift */,
+				C3D044502B7E11650050BA1C /* BookResultTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C3D044562B7E882B0050BA1C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044572B7E88530050BA1C /* BooksCoreDataOperations.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C3D044592B7E90CE0050BA1C /* BookMarks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0445B2B7E91530050BA1C /* ViewModel */,
+				C3D0445A2B7E914D0050BA1C /* View */,
+			);
+			path = BookMarks;
+			sourceTree = "<group>";
+		};
+		C3D0445A2B7E914D0050BA1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3D0445D2B7E91880050BA1C /* BookmarksViewController.swift */,
+				C3D0445E2B7E91880050BA1C /* BookmarksViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3D0445B2B7E91530050BA1C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3D044612B7E91A00050BA1C /* BookmarksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C360FDBA2B7D1F9A009C6D03 /* MedBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C360FDE82B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBook" */;
+			buildPhases = (
+				C360FDB72B7D1F9A009C6D03 /* Sources */,
+				C360FDB82B7D1F9A009C6D03 /* Frameworks */,
+				C360FDB92B7D1F9A009C6D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedBook;
+			packageProductDependencies = (
+				C360FE332B7D5BC8009C6D03 /* Alamofire */,
+				C3D044542B7E350F0050BA1C /* SDWebImage */,
+			);
+			productName = MedBook;
+			productReference = C360FDBB2B7D1F9A009C6D03 /* MedBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C360FDD32B7D1F9B009C6D03 /* MedBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C360FDEB2B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBookTests" */;
+			buildPhases = (
+				C360FDD02B7D1F9B009C6D03 /* Sources */,
+				C360FDD12B7D1F9B009C6D03 /* Frameworks */,
+				C360FDD22B7D1F9B009C6D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C360FDD62B7D1F9B009C6D03 /* PBXTargetDependency */,
+			);
+			name = MedBookTests;
+			productName = MedBookTests;
+			productReference = C360FDD42B7D1F9B009C6D03 /* MedBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C360FDDD2B7D1F9B009C6D03 /* MedBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C360FDEE2B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBookUITests" */;
+			buildPhases = (
+				C360FDDA2B7D1F9B009C6D03 /* Sources */,
+				C360FDDB2B7D1F9B009C6D03 /* Frameworks */,
+				C360FDDC2B7D1F9B009C6D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C360FDE02B7D1F9B009C6D03 /* PBXTargetDependency */,
+			);
+			name = MedBookUITests;
+			productName = MedBookUITests;
+			productReference = C360FDDE2B7D1F9B009C6D03 /* MedBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C360FDB32B7D1F9A009C6D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C360FDBA2B7D1F9A009C6D03 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C360FDD32B7D1F9B009C6D03 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C360FDBA2B7D1F9A009C6D03;
+					};
+					C360FDDD2B7D1F9B009C6D03 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C360FDBA2B7D1F9A009C6D03;
+					};
+				};
+			};
+			buildConfigurationList = C360FDB62B7D1F9A009C6D03 /* Build configuration list for PBXProject "MedBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C360FDB22B7D1F9A009C6D03;
+			packageReferences = (
+				C360FE322B7D5BC8009C6D03 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C3D044532B7E34940050BA1C /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = C360FDBC2B7D1F9A009C6D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C360FDBA2B7D1F9A009C6D03 /* MedBook */,
+				C360FDD32B7D1F9B009C6D03 /* MedBookTests */,
+				C360FDDD2B7D1F9B009C6D03 /* MedBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C360FDB92B7D1F9A009C6D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360FE202B7D2DB0009C6D03 /* LoginAndSignUpViewController.xib in Resources */,
+				C3D044522B7E11650050BA1C /* BookResultTableViewCell.xib in Resources */,
+				C360FDCE2B7D1F9B009C6D03 /* LaunchScreen.storyboard in Resources */,
+				C3D044602B7E91880050BA1C /* BookmarksViewController.xib in Resources */,
+				C3D044482B7E05AE0050BA1C /* HomeViewController.xib in Resources */,
+				C360FDCB2B7D1F9B009C6D03 /* Assets.xcassets in Resources */,
+				C360FDC62B7D1F9A009C6D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDD22B7D1F9B009C6D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDDC2B7D1F9B009C6D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C360FDB72B7D1F9A009C6D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D044472B7E05AE0050BA1C /* HomeViewController.swift in Sources */,
+				C3D044512B7E11650050BA1C /* BookResultTableViewCell.swift in Sources */,
+				C360FE302B7D584F009C6D03 /* HTTPProtocol.swift in Sources */,
+				C360FE192B7D2B30009C6D03 /* LoginAndSignUpRepository.swift in Sources */,
+				C3D0443D2B7DF8570050BA1C /* UserDefault.swift in Sources */,
+				C360FDC92B7D1F9A009C6D03 /* MedBook.xcdatamodeld in Sources */,
+				C360FE112B7D2A7E009C6D03 /* LoginAndSignUpModel.swift in Sources */,
+				C3D0444D2B7E05E40050BA1C /* HomeRepository.swift in Sources */,
+				C360FE2D2B7D584F009C6D03 /* BaseModels.swift in Sources */,
+				C360FE1F2B7D2DB0009C6D03 /* LoginAndSignUpViewController.swift in Sources */,
+				C360FDBF2B7D1F9A009C6D03 /* AppDelegate.swift in Sources */,
+				C360FE2C2B7D584F009C6D03 /* ServiceUrl.swift in Sources */,
+				C360FE002B7D23C4009C6D03 /* Constants.swift in Sources */,
+				C360FE2E2B7D584F009C6D03 /* ServiceHelper.swift in Sources */,
+				C360FE2F2B7D584F009C6D03 /* Webservices.swift in Sources */,
+				C360FE0A2B7D27D5009C6D03 /* BaseViewController.swift in Sources */,
+				C360FE222B7D32FC009C6D03 /* UIButton+Extension.swift in Sources */,
+				C3D0445F2B7E91880050BA1C /* BookmarksViewController.swift in Sources */,
+				C360FE082B7D27D5009C6D03 /* BaseViewModel.swift in Sources */,
+				C360FE172B7D2B1E009C6D03 /* LoginAndSignUpViewModel.swift in Sources */,
+				C360FDC12B7D1F9A009C6D03 /* SceneDelegate.swift in Sources */,
+				C360FE242B7D4832009C6D03 /* UIViewController+Extensions.swift in Sources */,
+				C360FDFA2B7D22D8009C6D03 /* KeychainService.swift in Sources */,
+				C3D0444A2B7E05CD0050BA1C /* HomeViewModel.swift in Sources */,
+				C3D044442B7E05970050BA1C /* HomeModel.swift in Sources */,
+				C360FE362B7D5FEA009C6D03 /* Data+Extension.swift in Sources */,
+				C3D044622B7E91A00050BA1C /* BookmarksViewModel.swift in Sources */,
+				C360FE1C2B7D2D8F009C6D03 /* LandingViewController.swift in Sources */,
+				C360FE092B7D27D5009C6D03 /* Bindable.swift in Sources */,
+				C3D044582B7E88530050BA1C /* BooksCoreDataOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDD02B7D1F9B009C6D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360FDD92B7D1F9B009C6D03 /* MedBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C360FDDA2B7D1F9B009C6D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C360FDE52B7D1F9B009C6D03 /* MedBookUITestsLaunchTests.swift in Sources */,
+				C360FDE32B7D1F9B009C6D03 /* MedBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C360FDD62B7D1F9B009C6D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C360FDBA2B7D1F9A009C6D03 /* MedBook */;
+			targetProxy = C360FDD52B7D1F9B009C6D03 /* PBXContainerItemProxy */;
+		};
+		C360FDE02B7D1F9B009C6D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C360FDBA2B7D1F9A009C6D03 /* MedBook */;
+			targetProxy = C360FDDF2B7D1F9B009C6D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C360FDC42B7D1F9A009C6D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C360FDC52B7D1F9A009C6D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C360FDCC2B7D1F9B009C6D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C360FDCD2B7D1F9B009C6D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C360FDE62B7D1F9B009C6D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C360FDE72B7D1F9B009C6D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C360FDE92B7D1F9B009C6D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C360FDEA2B7D1F9B009C6D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C360FDEC2B7D1F9B009C6D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedBook";
+			};
+			name = Debug;
+		};
+		C360FDED2B7D1F9B009C6D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedBook";
+			};
+			name = Release;
+		};
+		C360FDEF2B7D1F9B009C6D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedBook;
+			};
+			name = Debug;
+		};
+		C360FDF02B7D1F9B009C6D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C360FDB62B7D1F9A009C6D03 /* Build configuration list for PBXProject "MedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360FDE62B7D1F9B009C6D03 /* Debug */,
+				C360FDE72B7D1F9B009C6D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C360FDE82B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360FDE92B7D1F9B009C6D03 /* Debug */,
+				C360FDEA2B7D1F9B009C6D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C360FDEB2B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360FDEC2B7D1F9B009C6D03 /* Debug */,
+				C360FDED2B7D1F9B009C6D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C360FDEE2B7D1F9B009C6D03 /* Build configuration list for PBXNativeTarget "MedBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C360FDEF2B7D1F9B009C6D03 /* Debug */,
+				C360FDF02B7D1F9B009C6D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C360FE322B7D5BC8009C6D03 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		C3D044532B7E34940050BA1C /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C360FE332B7D5BC8009C6D03 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C360FE322B7D5BC8009C6D03 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C3D044542B7E350F0050BA1C /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3D044532B7E34940050BA1C /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C360FDC72B7D1F9A009C6D03 /* MedBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C360FDC82B7D1F9A009C6D03 /* MedBook.xcdatamodel */,
+			);
+			currentVersion = C360FDC82B7D1F9A009C6D03 /* MedBook.xcdatamodel */;
+			path = MedBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C360FDB32B7D1F9A009C6D03 /* Project object */;
+}
